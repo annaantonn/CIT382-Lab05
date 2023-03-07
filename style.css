@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* 
+  two column layout
+  https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01
+*/
+.attendance-form-wrapper {
+  margin: 20px;
+}
+.attendance-stats-wrapper {
+  margin: 20px;
+}
+.stats-labels {
+  text-align: right;
+  margin: 0px 5px 0px 5px;
+}
+.stats-results {
+  text-align: left;
+  margin: 0px 5px 0px 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.inputs {
+  width: 200px;
+}
+.inputs-age {
+  width: 75px;
+  text-align: right;
+}
